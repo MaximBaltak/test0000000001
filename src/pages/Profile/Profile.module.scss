@@ -1,0 +1,13 @@
+.profile{
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "header"
+                        "content";
+  .content{
+    grid-area: content;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "form profile";
+  }
+}
