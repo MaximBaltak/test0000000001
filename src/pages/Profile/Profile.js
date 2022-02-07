@@ -12,6 +12,7 @@ const Profile = () => {
                 <Content/>
             </div>
         </div>
+
     );
 };
 
